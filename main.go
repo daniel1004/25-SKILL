@@ -11,4 +11,5 @@ func main() {
 	fmt.Print("Введите целое число: ")
 	input, _ := reader.ReadString('\n')
 	fmt.Printf("Вы ввели число: %v\n", input)
+
 }
