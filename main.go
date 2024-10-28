@@ -8,8 +8,8 @@ import (
 
 func main() {
 	reader := bufio.NewReader(os.Stdin)
-	fmt.Print("Введите целое число: ")
+	fmt.Print("Введите информацию: ")
 	input, _ := reader.ReadString('\n')
-	fmt.Printf("Вы ввели число: %v\n", input)
+	fmt.Printf("Вы ввели : %v\n", input)
 
 }
